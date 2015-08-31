@@ -11,13 +11,13 @@ We had a brief introduction to inheritance in the previous unit when we build an
 
 ## What is Inheritance?
 
-In Ruby, classes can inherit from one another. This means that they adopt all of the attributes and behaviors (i.e. all of the methods) of the parent, also called the **super** class. In this exercise, we'll be building our own chain of inheritance. 
+In Ruby, classes can inherit from one another. This means that they adopt all of the attributes and behaviors (i.e. all of the methods) of the parent, also called the **superh** class. In this exercise, we'll be building our own chain of inheritance. 
 
 ## Code Along: Basic Inheritance
 
 ***This is a code along exercise. Fork and clone this lab by clicking on the github link at the top of the page. There are no tests to pass, just follow along with the guide and get your code working***. 
 
-In this domain model, we have class `Vehicle` that will act at the parent, or super, class. We will create child classes, also known as **sublcasses** for different types of `Vehicle`s, such as car. 
+In this domain model, we have class `Vehicle` that will act at the parent, or super, class. We will create child classes, also known as **subclasses** for different types of `Vehicle`s, such as car. 
 
 ### Step 1: Defining the Super Class
 
@@ -62,7 +62,7 @@ Open up `bin/car` and look at the following code:
 
 ```ruby
 honda = Car.new
-puts honad.go
+puts honda.go
 puts honda.fill_up_tank 
 ```
 
