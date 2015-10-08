@@ -7,7 +7,7 @@
 
 ## Introduction
 
-We had a brief introduction to inheritance in the previous unit when we build and utilized our very own custom errors. In that instance, our custom error inherited from the `StandardError` class, taking on all of the attributes and behaviors of the `StandardError` class. In this exercise, we'll be taking a closer look at class inheritance. 
+We had a brief introduction to inheritance in the previous unit when we built and utilized our very own custom errors. In that instance, our custom error inherited from the `StandardError` class, taking on all of the attributes and behaviors of the `StandardError` class. In this exercise, we'll be taking a closer look at class inheritance. 
 
 ## What is Inheritance?
 
