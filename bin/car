@@ -1,6 +1,0 @@
-require_relative "../lib/sub_car.rb"
-require_relative "../lib/super_vehicle.rb"
-
-honda = Car.new("16 inch diameter", 4)
-puts honda.go
-puts honda.fill_up_tank
