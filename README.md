@@ -5,13 +5,21 @@
 1. Learn about inheritance in object oriented Ruby.
 2. Write classes that inherit from another class. 
 
-## Introduction
+## Introduction: Why Inheritance?
 
-We had a brief introduction to inheritance in the previous unit when we built and utilized our very own custom errors. In that instance, our custom error inherited from the `StandardError` class, taking on all of the attributes and behaviors of the `StandardError` class. In this exercise, we'll be taking a closer look at class inheritance. 
+In the real-world, different entities (people, animals, cars, you name it) are related in various ways. Within a single entity or group, there exist systems of classification. For example, the "dogs" entity or category includes pugs, corgis, labs, etc. All of these breeds share common features because they are all dogs. But they all have certain unique traits as well. 
+
+Another example: you are writing a web application in which users are either admins, instructors or students. All of these entities are "users" and have common features, but they all have some unique traits as well. 
+
+How can our code reflect that fact that these different categories of things all share some, or even many, characteristics but all of some unique attributes as well? Well, we could write separate admin, instructor and student class that each contain repitious code to lend each of these classes shared attributes and behaviors. We know, however, that repitious code always something to be avoided. Not only is it time consuming but, what happens when we need to make a change to this shared behavior? We'd have to code the same change in three places.  
+
+Instead, we can use **inheritance**. The use of inheritance allows us to create a family of classes with shared behavior, while still differentiating those classes. With inheritance, we could *inherit* the admin, instructor and student classes from a user class. Then, any changes made to the user class would apply to the other class. 
+
+While you may not write your own classes that use inheritance very frequently, you will encounter it frequently as a Ruby on Rails web developer. Once we introduce the use of databases and the challenge of connecting our programs do our database, you'll encounter inheritance in nearly every program you write for the web. More on that (much) later. 
 
 ## What is Inheritance?
 
-In Ruby, classes can inherit from one another. This means that they adopt all of the attributes and behaviors (i.e. all of the methods) of the parent, also called the **superh** class. In this exercise, we'll be building our own chain of inheritance. 
+In Ruby, classes can inherit from one another. This means that they adopt all of the attributes and behaviors (i.e. all of the methods) of the parent, also called the **super** class. In this exercise, we'll be building our own chain of inheritance. 
 
 ## Code Along: Basic Inheritance
 
@@ -97,31 +105,3 @@ filling up!
 #### Method Look-Up in Ruby
 
 How does our above example work? Well, when your program is being executed, at the point at which the `.go` method is invoked, the compiler will first look in the class to which the instance of car that we are calling the method on belongs. If it finds a `.go` method there, it will execute *that method*. If it doesn't find such a method there, it will move on to look in the parent class that this class inherits from. 
-
-### Step 4: The `super` Keyword
-
-What if we don't want to totally overwrite the `go` method on the `Vehicle` class, but just augment it a little? That's where the `super` keyword comes in. Here's how it works: 
-
-
-```ruby
-class Car
-
-  def go
-    super + "VRRROOOOOOOOOOOOOOOOOOOOOOOM!!!!!"
-  end
-end
-``` 
-
-Make the above change to your `Car` class and run the `bin/car` file. You should see the following output in your terminal: 
-
-```bash
-vrrrrrrrooom!VRRROOOOOOOOOOOOOOOOOOOOOOOM!!!!!
-filling up!
-```
-
-The use of the `super` keyword delegate the method look-up to the super class, while augmenting or adding to that method's behavior. 
-
-## Why Use Inheritance?
-
-The use of inheritance allows us to create a family of classes with shared behavior. While you may not write your own classes that use inheritance very frequently, you will encounter it frequently as a Ruby on Rails web developer. Once we introduce the use of databases and the challenge of connecting our programs do our database, you'll encounter inheritance in nearly every program you write for the web. More on that (much) later. 
-
