@@ -50,7 +50,7 @@ class Vehicle
 end
 ```
 
-Instances of `Vehicle` initialize with a wheel size and number. We also have `go` and `fill_up_tank` instance methods that describe some common vehicle behavior.
+Instances of `Vehicle` initialize with a wheel size and number. We also have `#go` and `#fill_up_tank` instance methods that describe some common vehicle behavior.
 
 Go ahead and run the test suite and you'll see that you are passing all of the tests for the `Vehicle` class but none of the tests for the `Car` class.  
 
