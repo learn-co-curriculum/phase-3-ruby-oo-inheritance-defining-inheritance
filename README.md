@@ -79,7 +79,7 @@ Let's overwrite the inherited `go` method with one specific to `Car`.
 In `lib/sub_car.rb`, write the following method:
 
 ```ruby
-class Car
+class Car < Vehicle
   def go
     "VRRROOOOOOOOOOOOOOOOOOOOOOOM!!!!!"
   end
