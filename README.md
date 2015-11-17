@@ -15,7 +15,7 @@ How can our code reflect that fact that these different categories of things all
 
 Instead, we can use **inheritance**. The use of inheritance allows us to create a family of classes with shared behavior, while still differentiating those classes. With inheritance, we could *inherit* the admin, instructor and student classes from a user class. Then, any changes made to the user class would apply to the other class. 
 
-While you may not write your own classes that use inheritance very frequently, you will encounter it frequently as a Ruby on Rails web developer. Once we introduce the use of databases and the challenge of connecting our programs do our database, you'll encounter inheritance in nearly every program you write for the web. More on that (much) later. 
+While you may not write your own classes that use inheritance very frequently, you will encounter it frequently as a Ruby on Rails web developer. Once we introduce the use of databases and the challenge of connecting our programs to our database, you'll encounter inheritance in nearly every program you write for the web. More on that (much) later. 
 
 ## What is Inheritance?
 
