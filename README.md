@@ -23,7 +23,7 @@ In Ruby, classes can inherit from one another. This means that they adopt all of
 
 ## Code Along: Basic Inheritance
 
-In this domain model, we have class `Vehicle` that will act at the parent, or super, class. We will create child classes, also known as **subclasses** for different types of `Vehicle`s, such as car. 
+In this domain model, we have class `Vehicle` that will act as the parent, or super, class. We will create child classes, also known as **subclasses** for different types of `Vehicle`s, such as car. 
 
 ### Step 1: Defining the Super Class
 
@@ -92,4 +92,6 @@ Now, run the tests again and you should be passing all of them.
 
 How does our above example work? Well, when your program is being executed, at the point at which the `#go` method is invoked, the compiler will first look in the class to which the instance of car that we are calling the method on belongs. If it finds a `#go` method there, it will execute *that method*. If it doesn't find such a method there, it will move on to look in the parent class that this class inherits from. 
 
-<p data-visibility='hidden'>View <a href='https://learn.co/lessons/oo-inheritance-code-along' title='Code Along: An Intro to Inheritance'>Code Along: An Intro to Inheritance</a> on Learn.co and start learning to code for free.</p>
+<a href='https://learn.co/lessons/oo-inheritance-code-along' data-visibility='hidden'>View this lesson on Learn.co</a>
+
+<p data-visibility='hidden'>View <a href='https://learn.co/lessons/oo-inheritance-code-along'>Intro to Inheritance</a> on Learn.co and start learning to code for free.</p>
