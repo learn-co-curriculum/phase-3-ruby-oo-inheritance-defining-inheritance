@@ -52,7 +52,7 @@ end
 
 Instances of `Vehicle` initialize with a wheel size and number. We also have `#go` and `#fill_up_tank` instance methods that describe some common vehicle behavior.
 
-Go ahead and run the test suite and you'll see that you are passing all of the tests for the `Vehicle` class but none of the tests for the `Car` class.  
+Go ahead and paste the above Vehicle class code into your Vehicle class, and run the test suite and you'll see that you are passing all of the tests for the `Vehicle` class but none of the tests for the `Car` class.  
 
 ### Step 2: Defining the Subclass
 
@@ -95,3 +95,5 @@ How does our above example work? Well, when your program is being executed, at t
 <a href='https://learn.co/lessons/oo-inheritance-code-along' data-visibility='hidden'>View this lesson on Learn.co</a>
 
 <p data-visibility='hidden'>View <a href='https://learn.co/lessons/oo-inheritance-code-along'>Intro to Inheritance</a> on Learn.co and start learning to code for free.</p>
+
+<p class='util--hide'>View <a href='https://learn.co/lessons/oo-inheritance-code-along'>Intro to Inheritance</a> on Learn.co and start learning to code for free.</p>
