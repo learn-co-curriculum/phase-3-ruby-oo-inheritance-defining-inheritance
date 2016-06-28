@@ -1,5 +1,5 @@
-require_relative "../lib/super_vehicle.rb"
-require_relative "../lib/sub_car.rb"
+require_relative "../lib/vehicle.rb"
+require_relative "../lib/car.rb"
 
 
 RSpec.configure do |config|
