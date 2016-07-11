@@ -24,7 +24,7 @@ describe "car" do
   end
 
   describe "#go" do
-    it "returns 'vrrrrrrrooom!'" do 
+    it "returns 'VRRROOOOOOOOOOOOOOOOOOOOOOOM!!!!!'" do 
       expect(car.go).to eq("VRRROOOOOOOOOOOOOOOOOOOOOOOM!!!!!")
     end 
   end
