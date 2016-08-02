@@ -27,7 +27,7 @@ In this domain model, we have class `Vehicle` that will act as the parent, or su
 
 ### Step 1: Defining the Super Class
 
-Open up `lib/super_vehicle.rb`. We're going to define some methods in this parent class so that our subclasses, when we make them, will have access to them.
+Open up `lib/vehicle.rb`. We're going to define some methods in this parent class so that our subclasses, when we make them, will have access to them.
 
 ```ruby
 class Vehicle
