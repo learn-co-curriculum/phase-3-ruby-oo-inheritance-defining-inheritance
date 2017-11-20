@@ -11,7 +11,7 @@ In the real-world, different entities (people, animals, cars, you name it) are r
 
 Another example: you are writing a web application in which users are either admins, instructors or students. All of these entities are "users" and have common features, but they all have some unique traits as well.
 
-How can our code reflect that fact that these different categories of things all share some, or even many, characteristics but all have some unique attributes as well? Well, we could write separate admin, instructor and student class that each contain repetitious code to lend each of these classes shared attributes and behaviors. We know, however, that repetitious code is always something to be avoided. Not only is it time consuming but, what happens when we need to make a change to this shared behavior? We'd have to code the same change in three places.
+How can our code reflect that fact that these different categories of things all share some, or even many, characteristics but all have some unique attributes as well? Well, we could write separate admin, instructor and student class that each contain repetitious code to lend each of these classes shared attributes and behaviors. We know, however, that repetitious code is always something to be avoided. Not only is it time consuming, but what happens when we need to make a change to this shared behavior? We'd have to code the same change in three places.
 
 Instead, we can use **inheritance**. The use of inheritance allows us to create a family of classes with shared behavior, while still differentiating those classes. With inheritance, we could *inherit* the admin, instructor and student classes from a user class. Then, any changes made to the user class would apply to the other class.
 
