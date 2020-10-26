@@ -92,4 +92,4 @@ Now, run the tests again and you should be passing all of them.
 
 How does our above example work? Well, when your program is being executed, at the point at which the `#go` method is invoked, the compiler will first look in the class to which the instance of car that we are calling the method on belongs. If it finds a `#go` method there, it will execute *that method*. If it doesn't find such a method there, it will move on to look in the parent class that this class inherits from.
 
-<p class='util--hide'>View <a href='https://learn.co/lessons/oo-inheritance-code-along'>Intro to Inheritance</a> on Learn.co and start learning to code for free.</p>
+
