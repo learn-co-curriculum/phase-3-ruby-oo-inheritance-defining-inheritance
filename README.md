@@ -1,9 +1,9 @@
-# Defining Inheritance
+# Defining Object Inheritance
 
-## Objectives
+## Learning Goals
 
-1. Learn about inheritance in object oriented Ruby.
-2. Write classes that inherit from another class.
+- Learn about inheritance in object oriented Ruby.
+- Write classes that inherit from another class.
 
 ## Introduction: Why Inheritance?
 
