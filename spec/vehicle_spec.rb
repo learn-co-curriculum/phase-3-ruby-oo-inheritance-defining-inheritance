@@ -1,11 +1,11 @@
 require "spec_helper"
 
-describe "Vehicle" do 
-  let!(:vehicle) { Vehicle.new("medium", 4) } 
-  describe "#new" do
+describe Vehicle do 
+  let!(:vehicle) { Vehicle.new("medium", 4) }
 
+  describe "#new" do
     it "initializes with two arguments, wheel size and number" do 
-      expect{Vehicle.new("large", 4)}.to_not raise_error
+      expect { Vehicle.new("large", 4) }.not_to raise_error
     end
   end
 
