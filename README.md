@@ -33,7 +33,7 @@ classes. With inheritance, we could _inherit_ the `Admin`, `Instructor` and
 class would apply to the other class.
 
 While you may not write your own classes that use inheritance very frequently,
-you will encounter it frequently developer, particularly when working with other
+you will encounter it frequently as a developer, particularly when working with other
 libraries (such as Active Record, which you'll learn later in this phase). Once
 we introduce the use of databases and the challenge of connecting our programs
 to our database, you'll encounter inheritance in nearly every program you write
