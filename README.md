@@ -17,7 +17,7 @@ Another example: you are writing a web application in which users are either
 admins, instructors or students. All of these entities are "users" and have
 common features, but they all have some unique traits as well.
 
-How can our code reflect that fact that these different categories of things all
+How can our code reflect the fact that these different categories of things all
 share some, or even many, characteristics but all have some unique attributes as
 well? Well, we could write separate `Admin`, `Instructor` and `Student` classes
 that each contain repetitious code to lend each of these classes shared
